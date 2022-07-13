@@ -1,0 +1,213 @@
+{
+    "manager": [
+        {
+            "id": "1234",
+            "firstName": "w",
+            "lastName": "e",
+            "address": {
+                "city": "jerusalem",
+                "street": "hachoztvim",
+                "number": 63
+            },
+            "phone": "0533110485",
+            "email": "tr@gmail.com",
+            "hight": 1.69
+        }
+    ],
+    "users": [
+        {
+            "id": "1111",
+            "firstName": "Rivki",
+            "lastName": "choen",
+            "address": {
+                "city": "jerusalem",
+                "street": "arimon",
+                "number": 5
+            },
+            "phone": "0521369874",
+            "email": "ml@gmail.com",
+            "hight": 1.58,
+            "meeting": [
+                {
+                    "date": "12/03/2022",
+                    "weight": 61.8
+                },
+                {
+                    "date": "10/09/2000",
+                    "weight": 78.8
+                },
+                {
+                    "date": "04/03/2022",
+                    "weight": 60
+                },
+                {
+                    "date": "12/08/5602",
+                    "weight": 100
+                },
+                {
+                    "date": "12/03/0000",
+                    "weight": 50
+                }
+            ]
+        },
+        {
+            "id": "987654321",
+            "firstName": "Tamar",
+            "lastName": "Steinemetz",
+            "address": {
+                "city": "jerusalem",
+                "street": "arimon",
+                "number": 5
+            },
+            "phone": "0558963214",
+            "email": "rk@gmail.com",
+            "hight": 1.75,
+            "meeting": [
+                {
+                    "date": "12/03/2022",
+                    "weight": 60
+                },
+                {
+                    "date": "12/07/2022",
+                    "weight": 59.1
+                },
+                {
+                    "date": "12/03/2022",
+                    "weight": 57.2
+                },
+                {
+                    "date": "12/03/0000",
+                    "weight": 50
+                },
+                {
+                    "date": "12/03/0000",
+                    "weight": 50
+                },
+                {
+                    "date": "12/03/0000",
+                    "weight": 50
+                },
+                {
+                    "date": "12/03/0000",
+                    "weight": 600
+                },
+                {
+                    "date": "12/03/0000",
+                    "weight": 600
+                },
+                {
+                    "date": "12/03/0000",
+                    "weight": 600
+                }
+            ]
+        },
+        {
+            "id": "587412369",
+            "firstName": "Shira",
+            "lastName": "Avitan",
+            "address": {
+                "city": "jerusalem",
+                "street": "arimon",
+                "number": "5"
+            },
+            "phone": "0536985214",
+            "email": "sa@gmail.com",
+            "hight": 1.64,
+            "meeting": [
+                {
+                    "date": "12/03/2022",
+                    "weight": 60
+                },
+                {
+                    "date": "12/03/2022",
+                    "weight": 61.8
+                },
+                {
+                    "date": "12/03/2022",
+                    "weight": 60.9
+                }
+            ]
+        },
+        {
+            "id": "000000",
+            "firstName": "Yael",
+            "lastName": "Chadida",
+            "address": {
+                "city": "Modin",
+                "street": "Akiva",
+                "number": 4
+            },
+            "phone": "0556781475",
+            "email": "y@gmail.com",
+            "hight": 1.3,
+            "meeting": [
+                {
+                    "date": "12/03/2022",
+                    "weight": 60
+                },
+                {
+                    "date": "12/03/2022",
+                    "weight": 59.1
+                },
+                {
+                    "date": "12/03/2022",
+                    "weight": 57.2
+                }
+            ]
+        },
+        {
+            "id": "3110485",
+            "firstName": "t",
+            "lastName": "s",
+            "address": {
+                "city": "Modin",
+                "street": "Akiva",
+                "number": 7
+            },
+            "phone": "053110485",
+            "email": "ts0532110485@gmail.com",
+            "hight": 1.62,
+            "meeting": [
+                {
+                    "date": "12/03/2022",
+                    "weight": 40
+                },
+                {
+                    "date": "12/03/2022",
+                    "weight": 36.1
+                },
+                {
+                    "date": "12/03/2022",
+                    "weight": 57.2
+                }
+            ]
+        },
+        {
+            "id": "123456789",
+            "firstName": "daniel",
+            "lastName": "choen",
+            "address": {
+                "city": "haifa",
+                "street": "?",
+                "number": 5
+            },
+            "phone": "0526321456",
+            "email": "dt@gmail.com",
+            "hight": 1.32,
+            "meeting": [
+                {
+                    "date": "12/03/2022",
+                    "weight": 90
+                },
+                {
+                    "date": "12/03/2022",
+                    "weight": 36.1
+                },
+                {
+                    "date": "12/03/2022",
+                    "weight": 57.2
+                }
+            ]
+        }
+    ]
+}
