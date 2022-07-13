@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user dairy</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<body>
+    <h1>EATING DAIRY</h1>
+    <input type="button" id="openDay" value="ADD DAY" onclick="addDay()">
+  
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Your Day Today (:</h2>
+    <input type="date" id="dateDay" style="display: flex;">
+    </div>
+    <div class="modal-body">
+        <div id="divTableEating">
+            <table id="tableEating" cellspacing="0" width="100%" height="100%" border="3">
+                <tr>
+                    <th>BREAKFAST</th>
+                    <th>LUNCH</th>
+                    <th>SUPPER</th>
+                </tr>
+                <tr>
+                <th id="breakfast">
+                    <input type="button" value="ADD FOOD" id="addFood" onclick="addFood(breakfast)"><br>
+
+                </th>
+                <th id="lunch">
+                    <input type="button" value="ADD FOOD" id="addFood" onclick="addFood(lunch)"><br>
+
+                </th>
+                <th id="supper">
+                    <input type="button" value="ADD FOOD" id="addFood" onclick="addFood(supper)"><br>
+
+                </th>
+
+                </tr>
+            </table>
+            <input type="button" value="submit" onclick="submitFood()"/>
+        </div>
+    </div>
+  </div>
+
+</div>
+
+     
+     <script src="userDairy.js"> </script>
+</body>
+</html>
