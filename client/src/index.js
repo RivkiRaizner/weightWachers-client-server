@@ -11,16 +11,13 @@ const baseUrl='http://localhost:8000/users';
 
  
 
- const alUsers=()=>
+  async function alUsers()
  {
     content.style.display = 'block';
-    const xhr = new XMLHttpRequest();
-    xhr.open('GET', baseUrl);
-    xhr.send();
-    xhr.onload = function () {
-        if (xhr.status === 200) {
+    try{
+        let users= await fetch(baseUrl);
+        users= await users.json();
             let table="";
-           const users=JSON.parse(xhr.responseText);
             users.users.forEach( user=>{
                 let bmi=user.meeting[user.meeting.length-1].weight/Math.pow(user.hight,2);
                 table+=
@@ -33,10 +30,10 @@ const baseUrl='http://localhost:8000/users';
                `
             })
             content.innerHTML+=table;
-            
+        }
+        catch (e) { console.error(e) }        
     }
- }
-}
+  
 
 const sBigLess=()=>
 {
