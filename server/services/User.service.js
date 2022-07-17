@@ -1,5 +1,6 @@
 
 const fs = require('fs');
+const mongoose = require('mongoose');
 const data = fs.readFileSync('./data/users.json');
 let dataUsers = JSON.parse(data);
 const dataUser = dataUsers.users;
