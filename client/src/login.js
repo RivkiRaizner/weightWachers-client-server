@@ -24,7 +24,7 @@ const xhr = new XMLHttpRequest();
                     location.href=`/src/showUser.html?id=${users["users"][i].id}`;  
                     return;
                 }
-            
+            //
                 if(i>users["users"].length-1)
                 {
                     alert("Please enter your name and tz to login");
