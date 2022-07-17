@@ -6,6 +6,12 @@ let currentUser=0;
 const show=document.querySelector('#show table');
 let tbl="";
 
+try{
+
+}
+catch(err){
+    
+}
 const xhr = new XMLHttpRequest();
     xhr.open('GET',baseUrl+ params);
     xhr.send();
@@ -22,7 +28,7 @@ const xhr = new XMLHttpRequest();
              <th>${user.phone}</th>
              <th>${user.email}</th>
              <th>${user.hight}</th>
-             <th><a href="../src/Meetings.html?id=${user.id}"><input type="button" value="Meetings"" /></a></th>
+             <th><a href="../src/Meetings.html?id=${user.id}"><input type="button" value="Meetings"" onclick="meetingsFunc()" /></a></th>
              <th><a href="../src/userDairy.html?id=${user.id}"><input type="button" value="User Dairy"" /></a></th>
             </tr>
             `
